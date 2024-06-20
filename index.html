@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Attack on Titan Titan Are You?</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>What Attack on Titan Titan Are You?</h1>
+        </div>
+        <div class="questions">
+            <h4 class="heightQ">How tall are you?</h4>
+            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/03/Attack-On-Titan-Eren-header-e1615753000370.jpg?q=50&fit=crop&w=750&dpr=1.5" alt="AOT pic">
+            <button type="button" class="heightC1" onclick="selectAnswer('height','less than 58' )">less than 5'8</button>
+            <button type="button" class="heightC2" onclick="selectAnswer('height','58 and above' )">5'8 and above</button>
+
+            <h4 class="strengthQ">What is your greatest strength?</h4>
+            <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/06/Attack-On-Titan-Armored-Titan-Advances.jpg?q=50&fit=crop&w=750&dpr=1.5" alt="AOT pic">
+            <button type="button" class="strengthC1" onclick="selectAnswer('strength', 'Intelligence')">Intelligence</button>
+            <button type="button" class="strengthC2" onclick="selectAnswer('strength', 'Physical strength')">Physical strength</button>
+            <button type="button" class="strengthC3" onclick="selectAnswer('strength', 'Agility')">Agility</button>
+            <button type="button" class="strengthC4" onclick="selectAnswer('strength', 'Endurance')">Endurance</button>
+        </div>
+        <div class="result">
+            This is where the user will see their quiz result.
+        </div>
+    </body>
+</html>
